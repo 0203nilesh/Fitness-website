@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eef0f4;
+}
+#navbar{
+    /* background-color: rgb(202, 226, 226); */
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+#logo{
+    width: 100px;
+    margin: 0px 32px;
+}
+#logo img{
+    width: 91px;
+}
+.nav-box{
+    width: 60vw;
+    margin-left: 39vw;
+}
+.nav-box ul{
+    display: flex;
+}
+.nav-box ul li {
+    list-style: none;
+    padding: 13px;
+    margin: 0px 10px;
+}
+.nav-box ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+.btn{
+    width: 180px;
+    font-size: 16px;
+    height: 45px;
+    color: white;
+    letter-spacing: 0.7px;
+    background-color: #081158;
+    border-radius: 10px;
+}
+#cart{
+    width: 100px;
+    height: 50px;
+}
+#cart img{
+    width: 56px;
+    filter: invert(6%);
+}
+
+/* header is ends here. */
+
+/* About Container after navbar */
+.first-container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    height: 680px;
+}
+.first-container .first-box-1{
+    width: 45%;
+    height: 100%;
+}
+.first-container .first-box-2{
+    width: 45%;
+    padding: 23px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Baloo 2', cursive;
+}
+.first-box-1 h1{
+    text-align: center;
+    font-size: 62px;
+    color: gray;
+    letter-spacing: 2px;
+    font-family: 'Permanent Marker', cursive;
+}
+.first-box-1 img{
+    position: relative;
+    border-radius: 22px;
+    height: 560px;
+    right: 12px;
+    bottom: 22px;
+}
+.first-box-2 h2{
+    font-size: 18px;
+    margin: 12px 0px;
+    letter-spacing: 2px;
+    font-family: 'Staatliches', cursive;
+}
+.first-box-2 h1{
+    font-size: 52px;
+    margin: 12px 0px;
+}
+.first-box-2 p{
+    font-size: 23px;
+    margin: 12px 0pxs;
+}
+.first-box-2 .btn{
+    height: 60px;
+    width: 200px;
+    margin: 15px 0px;
+}
+
+/* About container ends here */
+
+.blue-line{
+    width: 100vw;
+    margin: 55px 0px;
+    height: 200px;
+    /* transform: rotate(-2deg); */
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: rgb(7, 7, 99);
+}
+.first-content{
+    width: 150px;
+    text-align: center;
+    height: 100px;
+    background-color: rgb(7, 7, 99);
+    margin: 0px 12px;
+}
+.first-content p{
+    color: white;
+    padding: 6px 0px;
+    background-color: rgb(7, 7, 99);
+    font-size: 19px;
+}
+
+/* Way to get subscript code is here. */
+.second-container{
+    width: 98vw;
+    height: 1500px;
+    display: flex;
+    /* background-color: greenyellow; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.second-box{
+    width: 40%;
+    height: 30%;
+    /* background-color: red; */
+    margin: 5px;
+}
+#second-box-1{
+    width: 80%;
+    height: 250px;
+    flex: 0 1 100%;
+    padding:  0 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#second-box-1 p{
+    font-size: 53px;
+    margin: 25px 0px;
+    text-align: center;
+}
+#second-box-2{
+    width: 30%;
+    flex: 0 1 45%;
+}
+
+#second-box-3{
+    width: 30%;
+    flex: 1 2 45%;
+}
+#second-box-3 img{
+    width: 40%;
+}
+
+#second-box-4{
+    width: 30%;
+    flex: 0 1 45%;
+}
+
+#second-box-5{
+    width: 30%;
+    flex: 1 2 45%;
+}
+.common-box{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.common-box h1{
+    width: 60%;
+    color: #081158;
+    font-family: 'Rubik', sans-serif;
+    font-size: 31px;
+    margin: 22px 0px;
+    text-align: center;
+}
+
+.common-box p{
+    width: 70%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.second-box img{
+    height: 50%;
+    border-radius: 12px;
+}
+/* Second box is ends here */
+
+.home-plan-container{
+    display: grid;
+    width: 100vw;
+    height: 1150px;  
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: orange; */
+}
+.home-plan-box{
+    width: 30%;
+    margin: 12px;
+    /* background-color: yellow; */
+}
+.home-common-box{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 80%;
+}
+.home-common-box:hover{
+    opacity: 0.9;
+    position: relative;
+    bottom: 5px;
+}
+#home-plan-box-1{
+    width: 80%;
+    grid-column: 1/5;
+    /* margin-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#home-plan-box-1 h1{
+    font-size: 83px;
+    margin: 23px 0px;
+    width: 80%;
+    color: #081158;
+}
+
+#home-plan-box-1 p{
+    margin: 23px 0px;
+    line-height: 33px;
+    font-size: 23px;
+    width: 70%;
+}
+.home-common-box img{
+    height: 70%;
+    margin: 12px 0px;
+}
+.home-common-box span{
+    width: 50%;
+    margin: 8px 15px;
+}
+.home-common-box h1{
+    width: 70%;
+    font-size: 26px;
+    margin: 8px 15px;
+    color: #081158;
+}
+#home-plan-box-3 h1{
+    margin: 25px 15px;
+}
+
+/*************************Home Fitness Starts here  ************************/
+.home-workout-container{
+    display: grid;
+    /* margin: 100px 0px; */
+    width: 100vw;
+    height: 1200px;  
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #081158;;
+}
+.home-workout-box{
+    width: 150px;
+    margin: 12px;
+    background-color: #081158;
+}
+.workout-common-box{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 350px;
+    height: 600px;
+    background-color: white;
+}
+.workout-common-box:hover{
+    opacity: 0.9;
+    position: relative;
+    bottom: 5px;
+}
+#home-workout-box-1{
+    width: 80%;
+    grid-column: 1/5;
+    /* margin-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    background-color: #081158;
+    justify-content: center;
+}
+#home-workout-box-1 h1{
+    font-size: 83px;
+    margin: 23px 0px;
+    width: 80%;
+    color:  white;
+    background-color: #081158;
+}
+
+#home-workout-box-1 p{
+    margin: 23px 0px;
+    line-height: 33px;
+    font-size: 23px;
+    color: white;
+    background-color: #081158;;
+    width: 70%;
+}
+#home-workout-box-1 .btn{
+    background-color: white;
+    color: #081158;
+    font-size: 19px;
+}
+.workout-common-box img{
+    height: 70%;
+}
+.workout-common-box span{
+    width: 50%;
+    margin: 8px 15px;
+}
+.workout-common-box h1{
+    width: 70%;
+    font-size: 26px;
+    margin: 8px 15px;
+}
+#home-workout-box-3 h1{
+    margin: 25px 15px;
+}
+
+/* <!-- ****************Home work out below Image************** --> */
+.fitness-animation{
+    background-color: #07105e;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* font-size: 43px; */
+    background: url('Images/bfbfbb.png')no-repeat center center;
+    /* background-size: 100% 100%; */
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+.fitness-animation::before{
+    content: " ";
+    position: absolute;
+    width: 100vw;
+    height: 400px;
+    background: url('Images/twelth.svg')no-repeat; 
+    background-size:  70%;
+    background-origin:left top;
+    /* background-size: 80% 50%; */
+    z-index: 2;
+    opacity: 1;
+}
+.fitness-animation h1{
+    background-color: #30600b00;;
+    font-size: 63px;
+    font-family: 'Arbutus', cursive;
+    color: white;
+}
+
+/* *****************Call Container Box is Starts here************** */
+.call-container{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    /* background-color: orange; */
+    justify-content: space-around;
+    align-items: center;
+}
+.call-container-box{
+    width: 40%;
+    height: 80%;
+    /* background-color: green; */
+    /* margin: 0px 12px; */
+}
+#call-content-box{
+    width: 45%;
+    /* height: 80%; */
+}
+#call-content-box h1{
+    font-size: 53px;
+    width: 80%;
+    margin: 15px 0px;
+    color: #07105e;
+}
+#call-content-box p{
+    width: 80%;
+    margin: 15px 0px;
+    font-size: 21px;
+}
+#call-img-bg-box {
+    width: 45%;
+    height: 90%;
+    background-color: #081158;
+    border-radius: 23px;
+}   
+#img-box{
+    content: " ";
+    position: absolute;
+    width: 35%;
+    height: 70%;
+    border-radius: 15px;
+    background: url('Images/thirteen.png')no-repeat;
+    background-size: 100% 100%;
+    right: 7%;
+    /* background-color: black; */
+    z-index: 3;
+    opacity: 1;
+}
+
+/* ***********Meal Adivisor Form ********  */
+.meal-container{
+    height: 500px;
+    width: 100vw;
+    margin: 45px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    background: url('Images/fourteen.jpeg')no-repeat center center;
+    background-size: 100%;
+}
+.meal-box{
+    height: 80%;
+    width: 90%;
+    padding: 12px;
+    display: flex;
+    background-color: #cfddee;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 22px;
+}
+.meal-box h1{
+    font-size: 54px;
+    color: #07105e;
+    background-color: #cfddee;
+    margin: 13px 0px;
+}
+.meal-box p{
+    font-size: 23px;
+    color: #08115865;
+    width: 70%;
+    background-color: #cfddee;
+    text-align: center;
+    margin: 23px 0px;
+}
+.meal-box form{
+    margin: 12px 0px;
+    background-color: #cfddee;
+    height: 80px;
+}
+
+.meal-box .btn{
+    height: 54px;
+    margin: 5px 32px;
+}
+.meal-box form input{
+    background-color: rgba(32, 52, 146, 0.1);
+    padding: 12px;
+    width: 250px;
+    font-size: 19px;
+    margin: 12px 2px;
+    border-radius: 12px;
+    border-style: none;
+    height: 38px;
+}   
